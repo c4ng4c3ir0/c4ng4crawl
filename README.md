@@ -7,6 +7,12 @@ Para executar a automação, use:
 bash crawlerzao.sh
 ```
 
+Ao finalizar o recon, use a automação c4ng4separator para separar as urls por potenciais vulnerabilidades, como sqli, xss, ssrf, etc, usando o comando:
+```
+sudo ./c4ng4separator.sh
+```
+
+
 ## Ferramentas necessárias
 
 [Subfinder](https://github.com/projectdiscovery/subfinder)
@@ -20,3 +26,5 @@ bash crawlerzao.sh
 [Anew](https://github.com/tomnomnom/anew)
 
 [WayBackUrls](https://github.com/tomnomnom/waybackurls)
+
+[gf](https://github.com/tomnomnom/gf)
