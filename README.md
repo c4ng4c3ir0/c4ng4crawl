@@ -4,14 +4,16 @@ Esta automação irá enumerar todos os subdominios, validá-los, fazer o recon 
 
 Para executar a automação, use:
 ```
-bash crawlerzao.sh
+bash c4ng4crawl.sh
 ```
 
-Ao finalizar o recon, use a automação c4ng4separator para separar as urls por potenciais vulnerabilidades, como sqli, xss, ssrf, etc, usando o comando:
+Ao finalizar o recon, use a automação c4ng4separator para separar as urls por potenciais vulnerabilidades, como sqli, xss, ssrf, etc, usando os comandos:
 ```
-sudo ./c4ng4separator.sh
+sudo su
 ```
-
+```
+bash c4ng4separator.sh
+```
 
 ## Ferramentas necessárias
 
